@@ -68,7 +68,7 @@ export default function Header() {
                     <li className="nav-item " onClick={closeNav2}>
                       <a
                         className="nav-link smoth-scroll"
-                        href="https://drive.google.com/file/d/1pr77pKlEqUUu_v7NGC-DZJPmukypGrFq/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1IPxaIq4D9GbdgQymmNtIM2bFuYWbhVTS/view?usp=sharing"
                       >
                         Litepaper
                       </a>
