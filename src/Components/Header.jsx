@@ -55,7 +55,7 @@ export default function Header() {
                     <li className="nav-item " onClick={closeNav2}>
                       <a
                         className="nav-link smoth-scroll"
-                        href="https://medium.com/@SocksyNFT"
+                        href="https://medium.com/@SocksyNFT" target="_blank"
                       >
                         How it Works
                       </a>
@@ -66,10 +66,7 @@ export default function Header() {
                       </NavLink>
                     </li>
                     <li className="nav-item " onClick={closeNav2}>
-                      <a
-                        className="nav-link smoth-scroll"
-                        href="https://drive.google.com/file/d/1IPxaIq4D9GbdgQymmNtIM2bFuYWbhVTS/view?usp=sharing"
-                      >
+                    <a className="nav-link smoth-scroll" style={{display: "table-cell"}} href="https://drive.google.com/file/d/1IPxaIq4D9GbdgQymmNtIM2bFuYWbhVTS/view?usp=sharing" target="_blank">
                         Litepaper
                       </a>
                     </li>
