@@ -7,6 +7,7 @@ import sollet from "../Assets/images/sollet.png";
 import sollet1 from "../Assets/images/sollet1.png";
 import solflare from "../Assets/images/solflare.png";
 import phantom from "../Assets/images/phantom.png";
+import pdf from "../Pages/Litepaper.pdf"
 
 import { openNav2, closeNav2 } from "../Assets/js/custom.js";
 import { Link, NavLink } from "react-router-dom";
@@ -66,7 +67,7 @@ export default function Header() {
                       </NavLink>
                     </li>
                     <li className="nav-item " onClick={closeNav2}>
-                    <a className="nav-link smoth-scroll" style={{display: "table-cell"}} href="https://drive.google.com/file/d/1IPxaIq4D9GbdgQymmNtIM2bFuYWbhVTS/view?usp=sharing" target="_blank">
+                    <a className="nav-link smoth-scroll" style={{display: "table-cell"}} href={pdf} target="_blank">
                         Litepaper
                       </a>
                     </li>
